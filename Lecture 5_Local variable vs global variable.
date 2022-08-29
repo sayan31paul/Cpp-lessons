@@ -1,0 +1,16 @@
+// Local variable takes precedence over global variable.
+#include <iostream>
+using namespace std;
+
+int glo=6; //here glo is a global variable.
+void sum(){
+    int a;
+}
+int main() {
+    int glo=9;  //Here glo is a local variable inside main function.
+    cout << glo;
+
+    return 0;
+}
+
+/*Note that the output of the program is 9 instead of 6. Hence local vaiable glo inside the main function is getting precedence.*/
