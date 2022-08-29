@@ -1,0 +1,22 @@
+1. C++ was created in 1979 by Bjarne Strowstrup.
+
+2.We can make faster programms using C++, we have more control on the system resources, helps in better memory management.
+
+3.High performance.
+
+4.C++ has three major updates.
+    1> C++11 which came in 2011
+    2> C++14 which came in 2014
+    3> C++17 which came in 2017
+
+
+
+// Basic structure of C++ program
+#include <iostream>// iostream is a header file.//iostream helps in taking input and giving outputs along with other tasks.
+
+int main() { //"int" indiactes that the RETURN type of main is integer.
+    // Write C++ code here
+    std::cout << "Hello world!";//the function cout is present inside "std" namespace inside "iostream" header file.
+
+    return 0;
+}
