@@ -1,0 +1,14 @@
+// Variables and comments.
+//Low level-Closer to hardware.
+//High level-Closer to user and far from hardware.
+
+//Variables-->Containers to store your data.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sum=6;
+    cout << "Hello world! "<<sum;
+
+    return 0;
+}
