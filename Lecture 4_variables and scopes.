@@ -1,0 +1,40 @@
+// Variables,charaters,scopes
+/*
+The different variable types present in C are as follows:-
+1. int--->Stores an integer
+2. float-->Stores a float
+3. Char--->Able to store only one single charater like 'a','b'.It cannot store more than one letter
+4. Double-->Double is same as float but it has slightly higher precision than float.
+5. Boolean--->True or false.
+
+Scope of the variable is the region of the program where the existence of that variable is valid.
+Based on scope variables can be classified into two types:-
+1. Local variables--> accessible only inside the function where it is declared.
+2. Global variables--->accessible from anywhere inside the program.
+
+Q.Can global and local variables have same name in C++?
+Ans-->Yes. Local varaible operate only inside the function in which they are declared. They cannot interfere with global variables or local varaibles inside other function.
+
+
+Data types define the type of data a variable can hold.
+Data types in C++ are categorized into two types:-
+  a. Built in-->int,float,char,double,bool.
+  b. User-defined-->struct,union,enum
+  c. Derived--->Array,pointer,function.
+  
+  
+*/
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a=4,b=15;
+    float pi=3.14;
+    char c='d';
+    //int b=5;
+    cout << "The value of a is "<<a<<".The value of b is "<<b<<".\n";
+    cout << "The value of pi is "<<pi<<" \n";
+    cout << "The value of c is "<<c<<".\n";
+
+    return 0;
+}
