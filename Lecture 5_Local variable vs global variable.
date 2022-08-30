@@ -14,3 +14,12 @@ int main() {
 }
 
 /*Note that the output of the program is 9 instead of 6. Hence local vaiable glo inside the main function is getting precedence.*/
+
+/*Rules for creating variables in c++ :-
+1. Variable names in C++ range from 1 to 255 characters
+2.All variable names must begin with a letter of the alphabet with an underscore_
+3.After the first initial letter variable names can also contain letters and numbers
+4.Variable names are case sensitive
+5.No spaces or special characters are allowed
+6.You cannot use a C++ keyword(a reserved word) as a variable.*/
+
