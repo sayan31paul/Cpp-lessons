@@ -1,0 +1,44 @@
+/*There are two types of header files.:-
+1. System header files: It comes with the compiler
+2. User defined header files: It is defined by the user. */
+//#include <this.h>// This is an user defined function.This will produce an error if this.h is not present in the current directory.
+/* search c++ reference for header files.*/
+
+/*Operators in C++:-
+*/
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a=4,b=5;//"=" is asignment operator because it asigns values to variables.
+    cout<<"Operators in C++:\n";
+    cout<<"Following are the types of opeartors in C++\n";
+    
+    /* Below are the arithmetic operators.*/
+    cout << "The value of a+b is "<<a+b<<"\n";
+    cout << "The value of a-b is "<<a-b<<"\n";
+    cout << "The value of a*b is "<<a*b<<"\n";
+    cout << "The value of a/b is "<<a/b<<"\n";
+    cout << "The value of a%b is "<<a%b<<"\n";
+    cout << "The value of a++ is "<<a++<<"\n";
+    cout << "The value of a-- is "<<a--<<"\n";
+    cout << "The value of ++a is "<<++a<<"\n";
+    cout << "The value of --a is "<<--a<<"\n";
+    
+    
+    /*Below are the comparision operators.*/
+    cout << "The value of a==b is "<<(a==b)<<endl;
+    cout << "The value of a!=b is "<<(a!=b)<<endl;
+    cout << "The value of a<=b is "<<(a>=b)<<endl;
+    cout << "The value of a>=b is "<<(a<=b)<<endl;
+    cout << "The value of a>b is "<<(a>b)<<endl;
+    cout << "The value of a<b is "<<(a<b)<<endl;
+    
+    
+    /*Below are the logical operators*/
+    cout << "The work of && is "<<((a==b) && (a<b))<<endl;
+    cout << "The value of || is "<<((a==b) || (a<b))<<endl;
+    cout << "The value of logical not is "<<!(a==b)<<endl;
+    //Logical not operator just gives the opposite result
+    return 0;
+}
